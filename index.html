@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Bistro | Rooftop Dining, Sheesha & Dinner in Karachi</title>
+    <meta name="description" content="Casa Bistro is a rooftop restaurant and sheesha lounge in DHA Phase 8, Karachi. Explore the menu, reserve a table and visit for dinner, drinks and cozy evenings." />
+    <meta property="og:title" content="Casa Bistro" />
+    <meta property="og:description" content="Rooftop dining, sheesha and warm nights in Karachi." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/rooftop-restaurant-hero.jpg" />
+    <meta property="og:url" content="https://example.com/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json" id="restaurant-schema"></script>
+    <script src="config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Casa Bistro home">Casa Bistro</a>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#experience">Experience</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#visit">Visit</a>
+        </nav>
+
+        <a class="btn btn-primary nav-cta" href="#reserve">Reserve a Table</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="top">
+        <div class="hero-media">
+          <img src="images/rooftop-restaurant-hero.jpg" alt="Rooftop restaurant dining area with warm glowing lights at night" loading="eager" />
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <p class="eyebrow">Rooftop • Sheesha • Dinner</p>
+          <h1>Casa Bistro</h1>
+          <p class="tagline" id="tagline">Rooftop dining, sheesha and warm nights in Karachi.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#reserve">Reserve a Table</a>
+            <a class="btn btn-secondary" href="#menu">See the Menu</a>
+          </div>
+
+          <div class="rating-strip" aria-label="Google rating 4.8 from 1256 reviews">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span><strong>4.8</strong> from 1,256 Google reviews</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience-section" id="experience">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow eyebrow-dark">Experience</p>
+            <h2>Warm, elevated evenings</h2>
+          </div>
+
+          <div class="experience-grid">
+            <article class="info-card">
+              <div class="card-icon" aria-hidden="true">01</div>
+              <h3>Rooftop dining</h3>
+              <p>Open-air ambience, string-light glow and a breezy skyline setting for relaxed nights.</p>
+            </article>
+            <article class="info-card">
+              <div class="card-icon" aria-hidden="true">02</div>
+              <h3>Comfortable seating</h3>
+              <p>Cozy corners, intimate tables and an upscale lounge atmosphere for conversations that linger.</p>
+            </article>
+            <article class="info-card">
+              <div class="card-icon" aria-hidden="true">03</div>
+              <h3>Sheesha lounge</h3>
+              <p>Laid-back evenings with premium sheesha, warm lighting and a polished service experience.</p>
+            </article>
+            <article class="info-card">
+              <div class="card-icon" aria-hidden="true">04</div>
+              <h3>Live music</h3>
+              <p>Evenings that balance an energetic mood with smooth dining and memorable crowd vibes.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow eyebrow-dark">Menu</p>
+            <h2>Favourites from the kitchen</h2>
+          </div>
+
+          <div class="menu-shell">
+            <div class="menu-tabs" id="menu-tabs" aria-label="Menu categories"></div>
+            <div class="menu-content">
+              <div class="menu-photo-wrap">
+                <img id="menu-photo" src="images/grilled-kebab.jpg" alt="Featured grill platter at Casa Bistro" loading="lazy" />
+              </div>
+              <ul class="menu-list" id="menu-list" aria-live="polite"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow eyebrow-dark">Gallery</p>
+            <h2>Scenes from the evenings</h2>
+          </div>
+          <div class="gallery-grid" id="gallery-grid"></div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="reviews">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow eyebrow-dark">Reviews</p>
+            <h2>Guests mention the mood</h2>
+          </div>
+          <div class="review-grid" id="review-grid"></div>
+        </div>
+      </section>
+
+      <section class="section reserve-section" id="reserve">
+        <div class="container reserve-wrap">
+          <div class="reserve-copy">
+            <p class="eyebrow eyebrow-dark">Reserve</p>
+            <h2>Plan your next evening</h2>
+            <ul class="feature-list">
+              <li>Rooftop or indoor seating</li>
+              <li>Friendly dining experience</li>
+              <li>Perfect for dinner, groups and date nights</li>
+            </ul>
+          </div>
+
+          <form id="reservationForm" class="reservation-form" novalidate>
+            <div class="field-row">
+              <label>
+                <span>Name</span>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                <span>Phone</span>
+                <input type="tel" id="phone" name="phone" placeholder="03XX XXXXXXX" required />
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>
+                <span>Date</span>
+                <input type="date" id="date" name="date" required />
+              </label>
+              <label>
+                <span>Time</span>
+                <input type="time" id="time" name="time" required />
+              </label>
+            </div>
+
+            <div class="field-row">
+              <label>
+                <span>Guests</span>
+                <select id="guests" name="guests" required>
+                  <option value="">Select</option>
+                  <option>2 guests</option>
+                  <option>4 guests</option>
+                  <option>6 guests</option>
+                  <option>8 guests</option>
+                  <option>10+ guests</option>
+                </select>
+              </label>
+              <label>
+                <span>Seating</span>
+                <select id="seating" name="seating" required>
+                  <option value="">Select</option>
+                  <option>Rooftop</option>
+                  <option>Indoor</option>
+                  <option>No preference</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              <span>Occasion or note</span>
+              <textarea id="note" name="note" rows="4" placeholder="Birthday, anniversary, or anything else we should know"></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary submit-btn">Send on WhatsApp</button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section visit-section" id="visit">
+        <div class="container visit-grid">
+          <div class="visit-copy">
+            <p class="eyebrow eyebrow-dark">Visit</p>
+            <h2>Find us in DHA Phase 8</h2>
+
+            <address>
+              Building 46-C, Lane 1, Zulfiqar & Al Murtaza Commercial Area, DHA Phase 8, Karachi 75500, Pakistan.
+            </address>
+
+            <div class="info-list">
+              <p><strong>Hours:</strong> Opens 6 PM</p>
+              <p><strong>Phone:</strong> <a href="tel:+923022361262">+92 302 2361262</a></p>
+              <p><strong>Popular for:</strong> Dinner, groups, couples, college students</p>
+            </div>
+
+            <div class="visit-actions">
+              <a class="btn btn-primary" href="tel:+923022361262">Call</a>
+              <a class="btn btn-secondary" href="https://www.google.com/maps/dir/?api=1&destination=24.7894728,67.0751701" target="_blank" rel="noreferrer">Get Directions</a>
+            </div>
+          </div>
+
+          <div class="map-block">
+            <iframe
+              title="Casa Bistro location map"
+              src="https://www.google.com/maps?q=24.7894728,67.0751701&z=16&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="brand footer-brand">Casa Bistro</p>
+          <p class="footer-note">Demo website concept by Qasim (QNKing), not an official site yet.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reserve">Reserve</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="floating-whatsapp" href="https://wa.me/923022361262?text=Hi%20Casa%20Bistro%2C%20I%20would%20like%20to%20reserve%20a%20table." aria-label="Chat on WhatsApp" target="_blank" rel="noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.49 11.49 0 0 0 3.46 19.3L2 22l2.78-1.02A11.44 11.44 0 1 0 20.52 3.48Zm-7.01 16.63c-1.68 0-3.29-.46-4.7-1.33l-.34-.2-1.65.61.44-1.62-.22-.35A9.59 9.59 0 0 1 12.09 4.4a9.5 9.5 0 0 1 6.88 16.11 9.62 9.62 0 0 1-5.46 1.6Zm5.28-7.18c-.29-.15-1.72-.85-1.99-.95-.27-.1-.46-.15-.65.15-.19.29-.73.95-.9 1.15-.16.19-.33.22-.62.07-.29-.15-1.22-.44-2.32-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.5.14-.17.19-.29.28-.49.09-.19.05-.36-.02-.5-.07-.15-.65-1.56-.89-2.14-.24-.58-.48-.5-.65-.51-.17-.01-.36-.01-.55-.01-.19 0-.49.07-.75.35-.26.29-1 1-1 2.45s1.03 2.84 1.17 3.04c.14.19 2.02 3.12 4.9 4.36.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.12.54-.08 1.72-.7 1.96-1.38.24-.68.24-1.28.17-1.39-.08-.12-.25-.19-.54-.34Z"/></svg>
+    </a>
+
+    <script type="application/ld+json" id="restaurant-schema-json"></script>
+  </body>
+</html>

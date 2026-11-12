@@ -1,0 +1,16 @@
+{
+  "name": "casa-bisto",
+  "version": "1.0.0",
+  "description": "Palette: Deep charcoal #111418, warm amber #D4A85D, ivory #F5F1EA\r Fonts: Cormorant Garamond for headings, Inter for body\r Theme: Rooftop at night with warm string lights, cozy lounge seating and an elevated Karachi dining feel",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.65.0"
+  }
+}
